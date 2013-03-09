@@ -7,7 +7,7 @@
 (asdf:defsystem #:restas-project
   :serial t
   :description "Generate a restas project tree"
-  :author "Pavel Penev <pvl.penev@gmail.com"
+  :author "Pavel Penev <pvl.penev@gmail.com>"
   :license "MIT"
   :depends-on (#:cl-interpol
                #:cl-fad
