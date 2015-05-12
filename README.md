@@ -1,3 +1,7 @@
+TODO:
+
+Let the user specify a directory instead of using 'ql:*local-project-directories*.
+
 A simple project skeleton generator for Restas projects.
 
 `restas-project` exports one symbol, nameing a function: `start-restas-project`. It's lambda list is:
@@ -11,7 +15,5 @@ Where `:depends-on` is a list of dependencies, in addition to Restas, which is i
 example:
 
 ```common-lisp
-(restas:project "hello-world" :depends-on '(sexml postmodern) :test t)
+(restas:start-restas-project "hello-world" :depends-on '(sexml postmodern) :test t)
 ```
-
-
